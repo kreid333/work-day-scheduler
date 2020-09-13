@@ -19,4 +19,19 @@ $(document).ready(function () {
     }
   });
 
+  // Creating click event for buttons to push textarea values to local storage
+  $("button").on("click", function () {
+    $("textarea").each(function () {
+      var textInTextarea = $(this).val();
+      if (textInTextarea !== "") {
+        localStorage.setItem($(this).attr("id"), textInTextarea);
+      }
+    });
+  });
+
+  // Appending the items in localStorage to the textarea
+  $("textarea").each(function () {
+      $(this).text(localStorage.getItem($(this).attr("id")));
+  });
+
 });
