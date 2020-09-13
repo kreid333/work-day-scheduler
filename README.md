@@ -1,46 +1,32 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Project Title
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Creating a 9-5 work day scheduler
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+## Description
 
-## User Story
+For this project, I had to create a work day planner,spanning from the hours 9AM - 5PM, that saved information inputted by the user and also had text fields that were color coded depending on if they were past hours, future hours, or the current hour.
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Getting Started
 
-## Acceptance Criteria
+### Installing
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+No files are required to access this project. However, I would suggest that you go in Git Bash (or any other terminal you use), pull all files within the "gt-atl-fsf-ft-08-2020-u-c" repo, go to the "02-Homework" folder within "05-Third-Party-APIs", and copy the "README.md" (for referencing what you are suppose to be doing).
 
-The following animation demonstrates the application functionality:
+### Executing program
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+Open HTML file in a browser to view how it looks visually and to see how it operates. I would recommend using console.log() in your Javascript file to see what your code is doing.
 
-## Review
+## Finished Project
 
-You are required to submit the following for review:
+![Document](https://user-images.githubusercontent.com/67942678/93009159-29bfa800-f54b-11ea-9e47-8576ed5a2e26.gif)
 
-* The URL of the deployed application.
+## GitHub Pages link
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+https://kreid333.github.io/work-day-scheduler/
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Authors
+
+Kai Reid
+[@kreid333](https://github.com/kreid333)
+
+<!-- README.md template acquired from: https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc -->
